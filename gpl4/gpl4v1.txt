@@ -1,0 +1,65 @@
+['//nobackup/dcjk57/Test_Data/I_29_16/I_29_16_train.txt', '//nobackup/dcjk57/Test_Data/I_32_17/I_32_17_train.txt', '//nobackup/dcjk57/Test_Data/I_13_12/I_13_12_train.txt', '//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_12.txt', '//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_0.txt', '//nobackup/dcjk57/Test_Data/pg_data/pg_train.txt', '//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_17.txt', '//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_7.txt']
+//nobackup/dcjk57/Test_Data/I_29_16/I_29_16_train.txt
+sin(sin(0.535))
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.2522389419889544, 0.8128872, 62.060010783526764, 1.144718506394368, -0.05534344529190305)
+//nobackup/dcjk57/Test_Data/I_29_16/I_29_16_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.4607902909366249, 1.6657950000000001, 55.32376924370944, 0.4688152495809825, -0.3835663412244221)
+//nobackup/dcjk57/Test_Data/I_29_16/I_29_16_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (0.815056733732722, 2.1407396999999997, 76.14720591510702, 0.7857470094584385, -0.9367911564725426)
+//nobackup/dcjk57/Test_Data/I_29_16/I_29_16_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (1.2702744608660677, 3.05515, 83.15627454403665, 0.6061845646955522, -1.927629271618351)
+//nobackup/dcjk57/Test_Data/I_32_17/I_32_17_train.txt
+sub(X0, X0)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.00031017120444338576, 0.00133497999893299, 46.46829236262662, 1.0, -0.1096809629439972)
+//nobackup/dcjk57/Test_Data/I_32_17/I_32_17_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (400.723109289266, 2790.6994480989997, 28.718471246499522, 1.0, -0.03064210163453729)
+//nobackup/dcjk57/Test_Data/I_32_17/I_32_17_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (3513.653873465004, 24565.9275649, 28.605912511810395, 1.0, -0.03582842708753087)
+//nobackup/dcjk57/Test_Data/I_32_17/I_32_17_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (14539.953413959845, 99016.16789000001, 29.368846974794476, 1.0, -0.03892193908311237)
+//nobackup/dcjk57/Test_Data/I_13_12/I_13_12_train.txt
+cos(sin(0.813))
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.09301260052028129, 0.48569399999999996, 38.300905722648956, 0.07418450830450032, -0.006912205927116499)
+//nobackup/dcjk57/Test_Data/I_13_12/I_13_12_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.01791932979757759, 0.086808, 41.284973268771516, 0.019000443947110486, -0.0216718479095499)
+//nobackup/dcjk57/Test_Data/I_13_12/I_13_12_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (0.014243737797887209, 0.051207, 55.63199483620289, 0.01629579199846917, -0.0003536139946820338)
+//nobackup/dcjk57/Test_Data/I_13_12/I_13_12_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (0.015685537460493643, 0.05968899999999999, 52.55754815960611, 0.018114320692819496, -0.1158793076624609)
+//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_12.txt
+cos(add(sqrt(add(sqrt(add(cos(sin(X8)), add(sqrt(add(sqrt(cos(X38)), sin(X8))), X0))), X0)), sin(X8)))
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(1.4886476526985235, 5.767933396149891, 51.618059726286006, 0.8503037666115384, 0.1832873908881021)
+//nobackup/dcjk57/Test_Data/pg_data/pg_extrap_1_dimless_set_12.txt
+//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_0.txt
+cos(add(sqrt(add(add(sqrt(cos(sqrt(X0))), sqrt(add(sqrt(sqrt(sqrt(sqrt(X0)))), X0))), X0)), sin(X8)))
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(1.5420617686200295, 5.767933396149891, 53.4701655760921, 1.0078053199573778, 0.1236270445249833)
+//nobackup/dcjk57/Test_Data/pg_data/pg_extrap_1_dimless_set_0.txt
+//nobackup/dcjk57/Test_Data/pg_data/pg_train.txt
+sqrt(sub(cos(X1), sin(sub(X0, X2))))
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(1.4759159204940082, 5.76794, 51.17653514058773, 1.121124307105377, 0.19719908854858315)
+//nobackup/dcjk57/Test_Data/pg_data/pg_extrap_1.txt
+//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_17.txt
+cos(add(sqrt(add(sqrt(add(cos(sin(X8)), add(sqrt(add(sqrt(cos(X38)), sin(X8))), X0))), X0)), sin(X8)))
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(1.4886476526985235, 5.767933396149891, 51.618059726286006, 0.8503037666115384, 0.1832873908881021)
+//nobackup/dcjk57/Test_Data/pg_data/pg_extrap_1_dimless_set_17.txt
+//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_7.txt
+cos(add(sqrt(add(sqrt(add(cos(sin(X8)), add(sqrt(add(sqrt(cos(X38)), sin(X8))), X0))), X0)), sin(X8)))
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(1.4886476526985235, 5.767933396149891, 51.618059726286006, 0.8503037666115384, 0.1832873908881021)
+//nobackup/dcjk57/Test_Data/pg_data/pg_extrap_1_dimless_set_7.txt
