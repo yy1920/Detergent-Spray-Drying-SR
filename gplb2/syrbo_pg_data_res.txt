@@ -1,0 +1,20 @@
+//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_12.txt
+add(add(max(neg(div(max(X2, max(max(inv(X2), div(max(X2, max(inv(X2), X14)), inv(X2))), max(neg(X18), X14))), inv(X2))), X14),max(-0.596, mul(-0.596, X0))),add(add(exp(div(neg(sqrt(log(X26))), X45)), sqrt(div(neg(sqrt(sqrt(log(X26)))), X45))), neg(sqrt(exp(log(X26))))))
+(17.170113564456162, 0.741121763154811, 0.6385300195269928)
+(32.9565742085106, 1.4326719968117054, -0.34150867090881265)
+//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_0.txt
+add(add(max(mul(X14, 0.404), add(max(X30, add(mul(mul(X16, 0.404), 0.404), max(X30, max(X30, add(mul(mul(X16, 0.404), 0.404), max(X30, add(add(mul(X14, 0.404), neg(X16)), neg(X16)))))))), neg(X16))),div(X46, X52)),sqrt(min(neg(X46), exp(X32))))
+(14.626879322691922, 0.6573824254746715, 0.7376812966058439)
+(17.73357820815465, 0.8527448383322556, 0.6115795284238869)
+//nobackup/dcjk57/Test_Data/pg_data/pg_train.txt
+add(add(max(div(div(sqrt(div(X9, X24)), exp(X2)), X23), max(div(sqrt(div(div(sqrt(div(X9, X24)), exp(X2)), X23)), exp(X2)), div(X9, X24))),sub(min(max(X0, max(div(X2, X6), log(X7))), min(inv(neg(add(X3, X18))), sub(max(sub(min(max(sub(log(X3), sqrt(X4)), X6), div(X0, X21)), div(log(log(neg(-0.383))), div(X0, X21))), log(X7)), sub(log(X3), sqrt(X4))))), div(log(log(X2)), add(exp(log(X3)), log(X3))))),mul(max(X7, log(X8)), X15))
+(15.643836351571338, 0.9965080919804945, 0.6999368814832758)
+(16.03159797655691, 0.5197849395247338, 0.6825587928640574)
+//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_17.txt
+add(add(max(sub(max(div(log(div(log(abs(abs(sqrt(exp(max(max(sqrt(X38), X14), X14)))))), abs(exp(X16)))), abs(exp(X16))), X14), min(X0, sqrt(max(abs(sqrt(exp(max(sqrt(max(neg(X38), X14)), X14)))), X14)))), X14),div(max(X15, div(max(X15, abs(X27)), exp(abs(sub(max(max(X28, X9), exp(X8)), add(inv(X8), sqrt(X41))))))), exp(abs(sub(add(max(X28, X9), exp(X8)), add(inv(X8), sqrt(X41))))))),div(neg(X46), X13))
+(18.29801817443348, 1.519783576997283, 0.5894802936056269)
+(14.27932379674183, 0.6575832148417626, 0.7481600378092101)
+//nobackup/dcjk57/Test_Data/pg_data/pg_train_dimless_set_7.txt
+add(add(add(neg(sub(add(X27, X3), inv(exp(X0)))), mul(inv(X23), log(sub(add(X27, X3), X23)))),mul(X3, abs(X33))),neg(X34))
+(13.767771884613625, 0.5790808084465618, 0.7675908492810701)
+(30.761933624529803, 1.4523255053843482, -0.16879036685293047)
