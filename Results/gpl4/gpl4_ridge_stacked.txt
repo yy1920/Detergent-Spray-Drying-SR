@@ -1,0 +1,80 @@
+['//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_train.txt', '//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_train.txt', '//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_train.txt', '//nobackup/dcjk57/Test_Data_Final/pg_data/pg_train.txt', '//nobackup/dcjk57/Test_Data_Final/Chemical Engineering Data/chemeng_train.txt', '//nobackup/dcjk57/Test_Data_Final/chem_eng/chemeng_train.txt']
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_train.txt
+add(mul(add(sqrt(sub(X1, div(inv(-0.009), cos(sqrt(sub(X1, X0)))))), sqrt(cos(cos(sqrt(sub(X0, X1)))))), 0.293), -3.086)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.23676024178037627, 1.0, 47.35204835607526, 21234491069829.47, 0.06643480560955373)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.27369976780986716, 1.0997994, 49.77267087250041, 1.520247548198331, -0.0010843926268722104)
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.3973483809125438, 1.6657950000000001, 47.70675634307268, 0.5583573934405556, -0.028812528153946193)
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (0.6298621512327177, 2.1407396999999997, 58.84528149150668, 1.005396441478564, -0.15663981556634288)
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (0.8718716320071864, 3.05515, 57.075536848088404, 0.4993455845210643, -0.37919616909730314)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_train.txt
+add(mul(div(div(div(X2, sub(X1, X3)), sub(X5, X4)), sub(X5, X4)), -0.000), 0.000)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.09923148745134194, 1.0, 19.846297490268388, 631835048358.3132, 0.0051569930215868975)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.01150509949354044, 0.0022060600000255743, 1043.0450208432287, 15085628910.696016, -709.7997348970791)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (400.7270281395868, 2790.6994480989997, 28.71875209726068, 2.1332444472485528, -0.030662259952269677)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (3513.660648092317, 24565.9275649, 28.60596766647366, 1.0399609715744338, -0.035832421424236705)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (14539.965870806216, 99016.16789000001, 29.36887213603155, 1.0038142154324285, -0.038923719239645216)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_train.txt
+add(mul(mul(mul(div(X1, X4), sqrt(X2)), sin(X3)), -0.060), 0.780)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.10437684387367162, 1.0, 20.875368774734323, 29128322595630.04, 0.2250956015750788)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(13.906073888333358, 101.01512, 27.532658256176617, 0.1650819996140222, -0.019459939940985382)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.1517431974633793, 0.086808, 349.6064820370917, 0.19713473150600852, -72.26328093123743)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (0.31593058756658654, 0.051207, 1233.9351556099225, 0.41886750604715267, -491.140328577846)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (0.4877340906251844, 0.05968899999999999, 1634.251170651827, 0.6542492478373473, -1077.908562801561)
+//nobackup/dcjk57/Test_Data_Final/pg_data/pg_train.txt
+add(mul(sub(sqrt(add(X9, X8)), sin(div(sub(sub(X1, X18), sqrt(sqrt(sub(X1, X18)))), inv(X2)))), -0.249), 0.666)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.1831542562808467, 0.9424242, 38.86875067105592, 0.5999159472921473, 0.373708882547914)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.21870467611959948, 0.839394, 52.1101356739742, 0.4806848506649938, 0.13266728924392224)
+//nobackup/dcjk57/Test_Data_Final/pg_data/pg_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.25144720713062546, 0.963636, 52.18717589019618, 89953500243218.62, 0.15903677998402876)
+//nobackup/dcjk57/Test_Data_Final/Chemical Engineering Data/chemeng_train.txt
+add(mul(div(mul(add(div(X0, X3), sqrt(sub(X3, X0))), inv(div(X6, X4))), sqrt(inv(X6))), 0.007), 0.053)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.14700531324144062, 1.0, 29.401062648288125, 333699046008.46655, 0.13507082002348825)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.34820334747768894, 1.0, 69.6406694955378, 732196211834.1871, -0.30549072746964123)
+//nobackup/dcjk57/Test_Data_Final/Chemical Engineering Data/chemeng_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.3567785334181465, 1.0, 71.35570668362931, 34005188051861.645, -0.48493803852514916)
+//nobackup/dcjk57/Test_Data_Final/Chemical Engineering Data/chemeng_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (0.24371416339265722, 1.0, 48.74283267853144, 68820766885682.75, 0.1442856350831042)
+//nobackup/dcjk57/Test_Data_Final/Chemical Engineering Data/chemeng_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (0.22069035110937482, 1.0, 44.13807022187496, 90983554090710.66, 0.11486778168761569)

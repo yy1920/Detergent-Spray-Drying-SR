@@ -1,0 +1,58 @@
+['//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_train.txt', '//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_train.txt', '//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_train.txt', '//nobackup/dcjk57/Test_Data_Final/pg_data/pg_train.txt', '//nobackup/dcjk57/Test_Data_Final/Chemical Engineering Data/chemeng_train.txt', '//nobackup/dcjk57/Test_Data_Final/chem_eng/chemeng_train.txt']
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_train.txt
+(sin(cos(add(sqrt(sub(X0, X1)), sqrt(sub(X0, X1)))))) * -0.6789734596500264 + [0.72594658]
+Train metrics
+(0.10145647373402672, 1.0, 20.291294746805345, 0.8285700771889632)
+Test metrics
+(0.09286649811073147, 1.0997994, 16.887897576727443, 0.8847502556155072)
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_extrap_1.txt
+Extrap 1:  (0.4745107781802178, 1.6657950000000001, 56.97108926130979, -0.46718714039778897)
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_extrap_2.txt
+Extrap 2:  (0.8175470200825941, 2.1407396999999997, 76.37986253841082, -0.9486443996044769)
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_extrap_3.txt
+Extrap 3:  (1.2887551440578708, 3.05515, 84.36607983620253, -2.0134346043794316)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_train.txt
+(div(div(mul(X2, div(div(div(mul(X2, div(X4, sqrt(sub(X5, X4)))), sqrt(sub(X5, X4))), sqrt(sub(X5, X4))), sqrt(sub(X5, X4)))), sqrt(sub(X5, X4))), sqrt(sub(X5, X4)))) * 5.804051854056163e-09 + [9.46161191e-05]
+Train metrics
+(0.00029739585729856313, 1.0, 0.059479171459712626, 0.9999910643658777)
+Test metrics
+(0.0004325381883523688, 0.0022060600000255743, 39.21363773853426, -0.004651445776901575)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_extrap_1.txt
+Extrap 1:  (394.77707335021483, 2790.6994480989997, 28.29233894170392, -0.00028313981574568103)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_extrap_2.txt
+Extrap 2:  (3513.3189199448457, 24565.9275649, 28.603185535438154, -0.03563094728274674)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_extrap_3.txt
+Extrap 3:  (14539.857093602834, 99016.16789000001, 29.368652419987797, -0.03890817438968108)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_train.txt
+(mul(X1, div(X2, X4))) * -0.037009246712596006 + [0.77833982]
+Train metrics
+(0.04459320138316021, 1.0, 8.918640276632042, 0.8585584169457708)
+Test metrics
+(13.893450967790468, 101.01512, 27.507666115311192, -0.01760999705265065)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_extrap_1.txt
+Extrap 1:  (0.03350300459668011, 0.086808, 77.1887489555804, -2.5713746806386153)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_extrap_2.txt
+Extrap 2:  (0.06671701473342549, 0.051207, 260.57771294325187, -20.94718454352646)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_extrap_3.txt
+Extrap 3:  (0.0956972686200151, 0.05968899999999999, 320.652946506107, -40.53531424018928)
+//nobackup/dcjk57/Test_Data_Final/pg_data/pg_train.txt
+(add(add(X9, add(sqrt(sin(sqrt(sqrt(X2)))), X8)), sin(sqrt(sqrt(X2))))) * -0.21662103225698381 + [0.89326098]
+Train metrics
+(0.06545419755192815, 0.9424242, 13.89060203503436, 0.9200134017833616)
+Test metrics
+(0.1313102769968661, 0.839394, 31.28692294604586, 0.6873438158713636)
+//nobackup/dcjk57/Test_Data_Final/pg_data/pg_extrap_1.txt
+Extrap 1:  (0.16904820820062594, 0.963636, 35.08549041352252, 0.6198941851357791)
+//nobackup/dcjk57/Test_Data_Final/pg_data/pg_extrap_2.txt
+//nobackup/dcjk57/Test_Data_Final/Chemical Engineering Data/chemeng_train.txt
+(div(div(X4, sqrt(X6)), X3)) * 0.006080469226186212 + [0.04642367]
+Train metrics
+(0.08469598503813773, 1.0, 16.939197007627545, 0.7128954123585648)
+Test metrics
+(0.35099410160260835, 1.0, 70.19882032052168, -0.3265008854583382)
+//nobackup/dcjk57/Test_Data_Final/Chemical Engineering Data/chemeng_extrap_1.txt
+Extrap 1:  (0.5213190043919935, 1.0, 104.26380087839871, -2.1704288759083648)
+//nobackup/dcjk57/Test_Data_Final/Chemical Engineering Data/chemeng_extrap_2.txt
+Extrap 2:  (0.49340684285682584, 1.0, 98.68136857136517, -2.5073380064004134)
+//nobackup/dcjk57/Test_Data_Final/Chemical Engineering Data/chemeng_extrap_3.txt
+Extrap 3:  (0.5176844030597583, 1.0, 103.53688061195166, -3.8704783720308535)

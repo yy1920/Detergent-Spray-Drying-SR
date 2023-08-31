@@ -1,0 +1,91 @@
+//nobackup/dcjk57/Test_Data_Final/Chemical_Engineering_Data/chemeng_train.txt
+ 
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.14859134930962775, 0.9830671287084412, 30.23015315441334, 0.047075191609751266)
+Test: 
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.39087044440365853, 1.0, 78.1740888807317, -0.6450290542969364)
+//nobackup/dcjk57/Test_Data_Final/Chemical_Engineering_Data/chemeng_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.47558058939055187, 1.0, 95.11611787811037, -1.6385124152148052)
+//nobackup/dcjk57/Test_Data_Final/Chemical_Engineering_Data/chemeng_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (0.3952291480633731, 1.0, 79.04582961267462, -1.2504284902560943)
+//nobackup/dcjk57/Test_Data_Final/Chemical_Engineering_Data/chemeng_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (0.3614565785311633, 1.0, 72.29131570623267, -1.3743991304950272)
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_train.txt
+ 
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.484561496421216, 0.5502292397177068, 176.13076930256148, -25.087705024249924)
+Test: 
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.09039716680954096, 1.0997994, 16.438846358625213, 0.8907977790719651)
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.36845615129236886, 1.6657950000000001, 44.23787456348096, 0.11536326149499165)
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (0.8922777695176942, 2.1407396999999997, 83.36163145081996, -1.321171661906745)
+//nobackup/dcjk57/Test_Data_Final/I_29_16/I_29_16_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (2.2354949510858053, 3.05515, 146.34272956063077, -8.0670985116716)
+//nobackup/dcjk57/Test_Data_Final/pg_data_reduced/pg_reduced_train.txt
+ 
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.5839715203494592, 0.4284231940465847, 272.61433482798833, -29.128110451357994)
+Test: 
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.13112755903909376, 0.839394, 31.243387262499795, 0.6882133312525223)
+//nobackup/dcjk57/Test_Data_Final/pg_data_reduced/pg_reduced_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.12562058612583857, 0.963636, 26.072206959025724, 0.7901035948597892)
+//nobackup/dcjk57/Test_Data_Final/pg_data_reduced/pg_reduced_extrap_2.txt
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_train.txt
+ 
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.10000066453406398, 1.0, 20.000132906812794, -0.010325514901735167)
+Test: 
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.00045568434804590816, 0.0022060600000255743, 41.31205389160998, -0.11505097794004082)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (400.723109289266, 2790.6994480989997, 28.718471246499522, -0.03064210163453729)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (3513.653873465004, 24565.9275649, 28.605912511810395, -0.03582842708753087)
+//nobackup/dcjk57/Test_Data_Final/I_32_17/I_32_17_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (14539.953413959845, 99016.16789000001, 29.368846974794476, -0.03892193908311237)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_train.txt
+ 
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.7143125224830863, 0.6509865385232374, 219.45538969315828, -87.65337087855818)
+Test: 
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(13.895183845197035, 101.01512, 27.511097042100303, -0.017863858148408296)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.018127665826974542, 0.086808, 41.764965963907805, -0.04556653557876422)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_extrap_2.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (0.014940145899058599, 0.051207, 58.3519671101943, -0.1005639469126296)
+//nobackup/dcjk57/Test_Data_Final/I_13_12/I_13_12_extrap_3.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (0.018153578270394752, 0.05968899999999999, 60.82721530062408, -0.4946616785950424)
+//nobackup/dcjk57/Test_Data_Final/pg_data/pg_train.txt
+ 
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.5095107084225088, 0.5954178020724186, 171.1439283975385, -13.85147214261723)
+Test: 
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.16633950355113236, 0.839394, 39.63323625166069, 0.4982811823260622)
+//nobackup/dcjk57/Test_Data_Final/pg_data/pg_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.27492235423328276, 0.963636, 57.059378070823996, -0.0053180453841696895)

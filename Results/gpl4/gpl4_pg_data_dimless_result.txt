@@ -1,0 +1,23 @@
+['//nobackup/dcjk57/Test_Data_Final/pg_data_dimless/pg_train_dimless_set_27.txt', '//nobackup/dcjk57/Test_Data_Final/pg_data_dimless/pg_train_dimless_set_11.txt']
+//nobackup/dcjk57/Test_Data_Final/pg_data_dimless/pg_train_dimless_set_27.txt
+add(mul(div(sub(X0, X2), inv(add(add(add(add(add(add(mul(X5, mul(X3, X4)), sub(X0, X2)), div(sub(X0, X2), X0)), div(sub(X0, X2), inv(div(sub(X0, X2), inv(X4))))), div(sub(X0, X2), inv(div(sub(X0, X2), inv(X4))))), div(sub(X0, X2), inv(div(X0, inv(X4))))), X4))), -0.186), 0.914)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.1367458903477886, 0.9424242, 29.020029483069003, 0.3109780048309488, 0.6508831683318175)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.20519847238181263, 0.839394, 48.89205126122241, 0.40178813540534025, 0.23648454077440006)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.17973925604295402, 0.963636, 37.304387972834974, 64991488483324.164, 0.570296145616086)
+//nobackup/dcjk57/Test_Data_Final/pg_data_dimless/pg_train_dimless_set_11.txt
+add(mul(sub(X8, sqrt(sqrt(sqrt(div(X0, X4))))), 0.405), 0.645)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.07130708970818041, 0.9424242, 15.132694960121015, 0.19279546334056116, 0.905069089885987)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.13312200704277385, 0.839394, 31.718598665888454, 0.2604658722390035, 0.6786566612559234)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.1767027969401065, 0.963636, 36.67417924197653, 32447544719734.76, 0.5846920761459387)

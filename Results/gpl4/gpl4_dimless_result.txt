@@ -1,0 +1,166 @@
+['//nobackup/dcjk57/Test_Data_Final/pg_data_dimless/pg_train_dimless_set_27.txt', '//nobackup/dcjk57/Test_Data_Final/pg_data_dimless/pg_train_dimless_set_10.txt', '//nobackup/dcjk57/Test_Data_Final/pg_data_dimless/pg_train_dimless_set_11.txt', '//nobackup/dcjk57/Test_Data_Final/I_29_16_dimless/I_29_16_train_dimless_set_1.txt', '//nobackup/dcjk57/Test_Data_Final/I_29_16_dimless/I_29_16_train_dimless_set_0.txt', '//nobackup/dcjk57/Test_Data_Final/I_32_17_dimless/I_32_17_train_dimless_set_0.txt', '//nobackup/dcjk57/Test_Data_Final/I_32_17_dimless/I_32_17_train_dimless_set_2.txt', '//nobackup/dcjk57/Test_Data_Final/I_32_17_dimless/I_32_17_train_dimless_set_1.txt', '//nobackup/dcjk57/Test_Data_Final/I_32_17_dimless/I_32_17_train_dimless_set_4.txt', '//nobackup/dcjk57/Test_Data_Final/I_32_17_dimless/I_32_17_train_dimless_set_3.txt', '//nobackup/dcjk57/Test_Data_Final/I_13_12_dimless/I_13_12_train_dimless_set_1.txt', '//nobackup/dcjk57/Test_Data_Final/I_13_12_dimless/I_13_12_train_dimless_set_0.txt', '//nobackup/dcjk57/Test_Data_Final/I_13_12_dimless/I_13_12_train_dimless_set_2.txt', '//nobackup/dcjk57/Test_Data_Final/I_13_12_dimless/I_13_12_train_dimless_set_3.txt']
+//nobackup/dcjk57/Test_Data_Final/I_29_16_dimless/I_29_16_train_dimless_set_1.txt
+add(mul(sub(sub(sub(sub(sqrt(cos(-0.319)), inv(sub(X0, -0.715))), sqrt(sub(mul(X0, X0), X0))), inv(sub(X0, -0.715))), sqrt(sub(mul(X0, X0), sub(sub(-0.893, inv(sub(X0, -0.715))), sqrt(sub(mul(X0, X0), X0)))))), -0.594), -0.930)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.07988225039332572, 1.0, 15.976450078665144, 6491364182361.631, 0.893725839191061)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.0641313392576424, 1.0997994, 11.662370293644898, 0.17210701752213212, 0.9450380096646616)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.3430748841131756, 1.6657950000000001, 41.19052874011215, 0.41094045532869955, 0.23304267554328428)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.5830832322026396, 2.1407396999999997, 54.47493053010039, 0.8129860257056624, 0.008784193444726363)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.810464153180228, 3.05515, 53.055604679326905, 0.48989583701825223, -0.191759353346874)
+//nobackup/dcjk57/Test_Data_Final/I_29_16_dimless/I_29_16_train_dimless_set_0.txt
+add(mul(sub(sub(add(0.484, X0), inv(sub(X0, -0.715))), div(add(sqrt(sub(mul(X0, X0), sqrt(add(sub(sqrt(0.955), mul(X0, 0.716)), mul(sub(sqrt(add(mul(X0, X0), X0)), inv(sub(X0, -0.715))), X0))))), div(X0, 0.732)), sqrt(0.917))), -0.789), -0.374)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.08158695109164872, 1.0, 16.317390218329745, 7233259049628.089, 0.8891416246036962)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.07377375967468354, 1.0997994, 13.415857414485505, 0.18301692056170293, 0.9272679772538482)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.352957977508702, 1.6657950000000001, 42.37712053508408, 0.38252248243418646, 0.18821811994979099)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.6050577099824181, 2.1407396999999997, 56.527910421095875, 0.7143676716428135, -0.06733490542952936)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.8826497482520689, 3.05515, 57.78110719618146, 0.4682506658492175, -0.4135063079504555)
+//nobackup/dcjk57/Test_Data_Final/I_32_17_dimless/I_32_17_train_dimless_set_0.txt
+add(mul(div(mul(add(sin(X1), div(add(X0, X0), sub(X0, X1))), cos(sin(mul(sin(-0.363), inv(sin(sub(X1, sub(X1, X0)))))))), div(mul(inv(sin(0.671)), add(sub(X0, X1), sub(X0, X1))), sin(cos(0.580)))), 0.000), -0.002)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.00588537691727333, 1.0, 1.177075383454666, 1931192.6348598092, 0.9965005151958993)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.0029640590293971954, 0.0022060600000255743, 268.7197111014962, 2996.6472009345393, -46.17807283570605)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(398.9372747100131, 2790.6994480989997, 28.5904865163295, 2.073502707440001, -0.02147639586853267)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(3363.0531662031804, 24565.9275649, 27.379818305809373, 1.0871956438484005, 0.05106309508057627)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(14118.404232148008, 99016.16789000001, 28.517371522260003, 1.0294351033164733, 0.020446610137181076)
+//nobackup/dcjk57/Test_Data_Final/I_32_17_dimless/I_32_17_train_dimless_set_2.txt
+add(mul(div(div(inv(sub(inv(sub(X1, -0.406)), sin(cos(X0)))), sub(cos(cos(X0)), sin(inv(X0)))), sub(inv(sub(X1, -0.406)), sin(cos(X0)))), -0.000), 0.036)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(398.17640616125055, 1.0, 79635.28123225011, 136910490153.84369, -16017936.46088352)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(24476.100645486265, 0.0022060600000255743, 2218987756.0177436, 2255015172.2758904, -3216999255813852.5)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(400.6949808945368, 2790.6994480989997, 28.71645537949182, 10.292900901725714, -0.030497416740089545)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(3513.616554400714, 24565.9275649, 28.605608683964356, 0.8507582551014968, -0.035806423814716215)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(14539.878515542536, 99016.16789000001, 29.368695689567215, 0.9718465999793867, -0.03891123569138699)
+//nobackup/dcjk57/Test_Data_Final/I_32_17_dimless/I_32_17_train_dimless_set_1.txt
+add(mul(mul(inv(cos(add(X1, X0))), div(sqrt(div(cos(X0), inv(div(sqrt(sqrt(sqrt(X0))), sin(sub(sin(cos(-0.484)), mul(X0, sqrt(inv(inv(inv(cos(X0)))))))))))), sin(sub(cos(X0), mul(cos(X0), inv(X1)))))), 0.000), 0.004)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(6.829108415773167, 1.0, 1365.8216831546333, 266935066950322.72, -4710.7643692161155)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(9.60272348444049, 0.0022060600000255743, 870576.8187927046, 80355038.76612398, -495171163.55741525)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(400.7209269026351, 2790.6994480989997, 28.71831484222371, 1.7502124392428107, -0.030630875661455725)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(3513.4816960981057, 24565.9275649, 28.60451075430343, 0.9518448616517396, -0.035726913479268374)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(14540.190554619598, 99016.16789000001, 29.369325968608933, 0.9892300772513072, -0.03895582813848297)
+//nobackup/dcjk57/Test_Data_Final/I_32_17_dimless/I_32_17_train_dimless_set_4.txt
+add(mul(div(inv(sub(inv(add(0.193, X0)), cos(sub(inv(add(0.193, X0)), div(inv(cos(X0)), div(X1, X0)))))), mul(add(add(mul(sin(add(X1, X1)), sub(X0, X1)), add(sub(X1, X0), cos(X0))), sqrt(0.858)), cos(inv(cos(X0))))), 0.002), 0.022)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.18628898937374028, 1.0, 37.25779787474806, 332408565.52878386, -2.50614539802451)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.39396589801304066, 0.0022060600000255743, 35716.69836799303, 52910.98000278007, -833457.0794299426)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(400.71499538376474, 2790.6994480989997, 28.717889750308178, 31.56486221996969, -0.03060036484541051)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(3513.4968018132517, 24565.9275649, 28.604633735331575, 0.8533458250616447, -0.03573581941970594)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(14539.133185214134, 99016.16789000001, 29.36719021759373, 0.8014628571933013, -0.038804726932721856)
+//nobackup/dcjk57/Test_Data_Final/I_32_17_dimless/I_32_17_train_dimless_set_3.txt
+add(mul(div(div(sqrt(sqrt(div(sqrt(sqrt(sqrt(div(sqrt(inv(X1)), sub(inv(X1), inv(sqrt(sqrt(inv(X1))))))))), sub(inv(X1), inv(sqrt(inv(X1))))))), sin(sub(sqrt(X1), inv(X1)))), sub(inv(X1), sqrt(sqrt(X1)))), -0.000), 0.001)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.002018026302563259, 1.0, 0.40360526051265183, 377626639.2275438, 0.9995885574587581)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.00042421778085505055, 0.0022060600000255743, 38.459314873587545, 2342.382168232556, 0.033628228646225056)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(399.2960202675244, 2790.6994480989997, 28.616196598277284, 1.0727389901770257, -0.023314353402478005)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(3325.5761647310696, 24565.9275649, 27.074704636699167, 0.9388664235595158, 0.07209467194587726)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(14168.312115442146, 99016.16789000001, 28.618179065831235, 0.978184879106295, 0.013509021039976865)
+//nobackup/dcjk57/Test_Data_Final/I_13_12_dimless/I_13_12_train_dimless_set_1.txt
+add(mul(add(sub(sqrt(sub(-0.123, X0)), sin(X1)), sub(div(add(mul(cos(X1), X0), sub(sqrt(sub(-0.123, X0)), cos(cos(inv(X1))))), inv(sub(add(cos(inv(X1)), sqrt(cos(sqrt(div(X0, -0.056))))), sqrt(add(mul(cos(X1), X0), sub(add(cos(mul(cos(inv(X1)), X0)), add(cos(inv(X1)), sqrt(mul(cos(X1), X0)))), sqrt(sin(inv(sqrt(sin(inv(0.165)))))))))))), cos(inv(X1)))), -0.731), 0.478)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(36.1333153735401, 1.0, 7226.66307470802, 1.560685213633996e+16, -92864.71952851373)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(37.39082172763011, 101.01512, 74.03014861068345, 13.752922171255582, -6.370401027189405)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(9.485089533869688, 0.086808, 21853.03090468549, 11.413899162374442, -286252.4772706281)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(13.334404857146119, 0.051207, 52080.398606230076, 17.340246219229225, -876702.7787489085)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(18.64849481383558, 0.05968899999999999, 62485.53272407171, 24.727236095672183, -1577268.785611211)
+//nobackup/dcjk57/Test_Data_Final/I_13_12_dimless/I_13_12_train_dimless_set_0.txt
+add(mul(sqrt(sub(add(mul(sub(X0, 0.731), sqrt(add(mul(sub(X0, 0.731), add(cos(X0), X0)), add(sub(0.479, X0), sub(add(mul(sub(X0, 0.731), add(cos(sub(X0, 0.731)), X0)), add(sub(0.479, X0), cos(add(0.691, sub(0.479, X0))))), inv(sin(add(0.691, sub(0.479, X0))))))))), add(sub(0.479, X0), cos(add(0.691, sub(0.479, X0))))), inv(sin(add(0.691, sqrt(X0)))))), 1.003), -0.317)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(4.730447374151802, 1.0, 946.0894748303604, 386967666675124.4, -1590.637766203719)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(553.9673313844681, 101.01512, 1096.800818302187, 6.576680110719442, -1616.8170492281058)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(8.099233240532683, 0.086808, 18660.107917548346, 5.322881165467358, -208714.98572205228)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(7.420763961039372, 0.051207, 28983.396649049435, 7.095022774585259, -271519.63466954994)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(11.52065593216106, 0.05968899999999999, 38602.27489876212, 9.057579505221716, -601966.2009481238)
+//nobackup/dcjk57/Test_Data_Final/I_13_12_dimless/I_13_12_train_dimless_set_2.txt
+add(mul(add(inv(sqrt(X0)), mul(sub(div(mul(add(sub(sin(X0), sub(X0, sub(sin(mul(add(0.438, X0), div(X0, X0))), inv(add(X1, sin(X0)))))), div(div(sub(X0, sub(sin(mul(X0, inv(sqrt(X0)))), inv(add(X1, sin(X0))))), X0), div(sqrt(0.753), X0))), sub(sin(X0), sub(X0, sub(sin(mul(mul(-0.891, add(sub(0.283, add(sqrt(X0), mul(mul(X0, inv(sub(sin(X0), sub(X0, sub(sin(mul(add(0.438, X0), div(X0, X0))), inv(add(X1, sin(X0)))))))), sub(0.612, inv(add(X1, sin(X0))))))), mul(add(sub(sin(X0), sub(X0, sub(div(-0.695, 0.612), inv(add(X1, sin(X0)))))), div(sin(X0), div(sqrt(0.753), X0))), inv(cos(sin(X0)))))), sqrt(X1))), inv(add(X1, sin(X0))))))), div(X0, X0)), sub(X0, sub(0.612, sin(X0)))), sin(X1))), -0.460), 1.026)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(6.705314341565363, 1.0, 1341.0628683130726, 85173292802577.2, -3196.9972731315393)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(880.6772698980003, 101.01512, 1743.6543557004147, 6.984511472074969, -4087.7887620211222)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(11.138150841449653, 0.086808, 25661.576908694253, 13.583356940639026, -394723.5077356056)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(17.179474398753538, 0.051207, 67098.14829516878, 22.23773746174321, -1455207.9250247912)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(21.481810535744195, 0.05968899999999999, 71979.12692705255, 28.53925546446175, -2092955.3915914684)
+//nobackup/dcjk57/Test_Data_Final/I_13_12_dimless/I_13_12_train_dimless_set_3.txt
+add(mul(mul(cos(mul(sqrt(inv(X0)), cos(mul(X0, X0)))), sub(sub(div(sin(X1), sub(0.408, X0)), mul(X0, div(sqrt(sqrt(cos(mul(mul(X0, X1), mul(X1, X0))))), sqrt(div(sin(add(add(X0, X0), add(sqrt(sqrt(div(X0, X1))), -0.621))), sqrt(X0)))))), sub(div(sin(X1), sub(0.408, X0)), mul(sub(div(add(add(X0, X0), div(X0, X1)), sub(0.408, X0)), mul(add(-0.419, X0), div(div(sqrt(sqrt(div(add(0.744, X0), X1))), sqrt(cos(X0))), sqrt(div(sin(add(add(X0, X0), div(X0, X1))), sqrt(X0)))))), div(div(sqrt(sqrt(sin(add(X0, X0)))), sqrt(div(sin(add(add(X0, X0), add(sqrt(sqrt(div(X0, X1))), -0.621))), mul(X0, div(sqrt(sqrt(cos(mul(mul(X0, X1), sqrt(inv(X0)))))), sqrt(div(sin(add(add(X0, X0), add(sqrt(sqrt(div(X0, X1))), -0.621))), sqrt(X0)))))))), sqrt(div(sin(add(add(X0, X0), div(X0, X1))), sqrt(X0)))))))), -0.014), 0.263)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(11.482334864278739, 1.0, 2296.466972855748, 1128679621418071.0, -9376.78391149884)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(82.78846118805906, 101.01512, 163.9130086427835, 19.200504643012945, -35.13272536028956)
+Extrapolation  metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(6.372482283510618, 0.086808, 14681.785742121965, 7.226635294486898, -129205.74178287227)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(10.604452150310172, 0.051207, 41417.978597887675, 11.843787472501626, -554474.1385624812)
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(19.337769598552104, 0.05968899999999999, 64795.08652700533, 18.972213569614638, -1696019.818006962)

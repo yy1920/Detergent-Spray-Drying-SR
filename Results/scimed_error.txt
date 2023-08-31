@@ -1,0 +1,30 @@
+Version 0.12.0 of tpot is outdated. Version 0.12.1 was released Tuesday August 15, 2023.
+Traceback (most recent call last):
+  File "/home/dcjk57/SciMED/demo.py", line 71, in <module>
+    scimed.run(train_data_x=x_train,
+  File "/home/dcjk57/SciMED/scimed.py", line 130, in run
+    all_s_scores, best_s_model = GASF.run_and_analyze(run_times=analytical_run_times,
+  File "/home/dcjk57/SciMED/algo/genetic_algorithm_symbolic_fit.py", line 122, in run_and_analyze
+    fit_model = GASF.run(non_normalized_data=non_normalized_data,
+  File "/home/dcjk57/SciMED/algo/genetic_algorithm_symbolic_fit.py", line 87, in run
+    est.fit(x_values, y_values)
+  File "/home/dcjk57/.local/lib/python3.9/site-packages/gplearn/genetic.py", line 403, in fit
+    raise ValueError('invalid type %s found in '
+ValueError: invalid type <class 'int'> found in `feature_names`.
+Exception in thread ExecutorManagerThread:
+Traceback (most recent call last):
+  File "/apps/developers/compilers/python/3.9.9/1/default/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/home/dcjk57/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 574, in run
+    self.join_executor_internals()
+  File "/home/dcjk57/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 824, in join_executor_internals
+    self.shutdown_workers()
+  File "/home/dcjk57/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 812, in shutdown_workers
+    raise e
+  File "/home/dcjk57/.local/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 808, in shutdown_workers
+    self.call_queue.put_nowait(None)
+  File "/apps/developers/compilers/python/3.9.9/1/default/lib/python3.9/multiprocessing/queues.py", line 138, in put_nowait
+    return self.put(obj, False)
+  File "/apps/developers/compilers/python/3.9.9/1/default/lib/python3.9/multiprocessing/queues.py", line 90, in put
+    raise Full
+queue.Full

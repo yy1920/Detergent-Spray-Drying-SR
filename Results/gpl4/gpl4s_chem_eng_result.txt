@@ -1,0 +1,78 @@
+['//nobackup/dcjk57/Test_Data_Final/Chemical_Engineering_Data/chemeng_train.txt']
+//nobackup/dcjk57/Test_Data_Final/Chemical_Engineering_Data/chemeng_train.txt
+Sol  0   add(mul(div(mul(add(div(X0, X3), sqrt(sub(X3, X0))), inv(div(X6, X4))), sqrt(inv(X6))), 0.007), 0.053)
+Sol  1   div(mul(add(div(X0, X3), sqrt(X5)), inv(div(X6, X4))), sqrt(inv(X6)))
+Sol  2   div(mul(add(div(X0, X3), div(X4, X3)), cos(X5)), sqrt(X6))
+Sol  3   div(mul(add(div(X0, X3), X4), cos(X0)), sqrt(X6))
+Sol  4   div(sub(X3, X0), X6)
+Sol  5   div(inv(X6), X3)
+Sol  6   div(X4, X6)
+Sol  7   inv(X6)
+Sol  8   X0
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.16557709]]
+[0.00308334]
+Sol  0   add(mul(div(mul(add(div(X0, X3), sqrt(sub(X3, X0))), inv(div(X6, X4))), sqrt(inv(X6))), 0.007), 0.053)
+Sol  1   div(mul(add(div(X0, X3), sqrt(X5)), inv(div(X6, X4))), sqrt(inv(X6)))
+Sol  2   div(mul(add(div(X0, X3), div(X4, X3)), cos(X5)), sqrt(X6))
+Sol  3   div(mul(add(div(X0, X3), X4), cos(X0)), sqrt(X6))
+Sol  4   div(sub(X3, X0), X6)
+Sol  5   div(inv(X6), X3)
+Sol  6   div(X4, X6)
+Sol  7   inv(X6)
+Sol  8   X0
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.16557709]]
+[0.00308334]
+add(mul(div(mul(add(div(X0, X3), sqrt(sub(X3, X0))), inv(div(X6, X4))), sqrt(inv(X6))), 0.007), 0.053)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.14700531324144062, 1.0, 29.401062648288125, 333699046008.46655, 0.13507082002348825)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.34820334747768894, 1.0, 69.6406694955378, 732196211834.1871, -0.30549072746964123)
+//nobackup/dcjk57/Test_Data_Final/Chemical_Engineering_Data/chemeng_extrap_1.txt
+Sol  0   add(mul(div(mul(add(div(X0, X3), sqrt(sub(X3, X0))), inv(div(X6, X4))), sqrt(inv(X6))), 0.007), 0.053)
+Sol  1   div(mul(add(div(X0, X3), sqrt(X5)), inv(div(X6, X4))), sqrt(inv(X6)))
+Sol  2   div(mul(add(div(X0, X3), div(X4, X3)), cos(X5)), sqrt(X6))
+Sol  3   div(mul(add(div(X0, X3), X4), cos(X0)), sqrt(X6))
+Sol  4   div(sub(X3, X0), X6)
+Sol  5   div(inv(X6), X3)
+Sol  6   div(X4, X6)
+Sol  7   inv(X6)
+Sol  8   X0
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.16557709]]
+[0.00308334]
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.3567785334181465, 1.0, 71.35570668362931, 34005188051861.645, -0.48493803852514916)
+//nobackup/dcjk57/Test_Data_Final/Chemical_Engineering_Data/chemeng_extrap_2.txt
+Sol  0   add(mul(div(mul(add(div(X0, X3), sqrt(sub(X3, X0))), inv(div(X6, X4))), sqrt(inv(X6))), 0.007), 0.053)
+Sol  1   div(mul(add(div(X0, X3), sqrt(X5)), inv(div(X6, X4))), sqrt(inv(X6)))
+Sol  2   div(mul(add(div(X0, X3), div(X4, X3)), cos(X5)), sqrt(X6))
+Sol  3   div(mul(add(div(X0, X3), X4), cos(X0)), sqrt(X6))
+Sol  4   div(sub(X3, X0), X6)
+Sol  5   div(inv(X6), X3)
+Sol  6   div(X4, X6)
+Sol  7   inv(X6)
+Sol  8   X0
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.16557709]]
+[0.00308334]
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 2:  (0.24371416339265722, 1.0, 48.74283267853144, 68820766885682.75, 0.1442856350831042)
+//nobackup/dcjk57/Test_Data_Final/Chemical_Engineering_Data/chemeng_extrap_3.txt
+Sol  0   add(mul(div(mul(add(div(X0, X3), sqrt(sub(X3, X0))), inv(div(X6, X4))), sqrt(inv(X6))), 0.007), 0.053)
+Sol  1   div(mul(add(div(X0, X3), sqrt(X5)), inv(div(X6, X4))), sqrt(inv(X6)))
+Sol  2   div(mul(add(div(X0, X3), div(X4, X3)), cos(X5)), sqrt(X6))
+Sol  3   div(mul(add(div(X0, X3), X4), cos(X0)), sqrt(X6))
+Sol  4   div(sub(X3, X0), X6)
+Sol  5   div(inv(X6), X3)
+Sol  6   div(X4, X6)
+Sol  7   inv(X6)
+Sol  8   X0
+[[0.         0.         0.         0.         0.         0.
+  0.         0.         0.16557709]]
+[0.00308334]
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 3:  (0.22069035110937482, 1.0, 44.13807022187496, 90983554090710.66, 0.11486778168761569)

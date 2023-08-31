@@ -1,0 +1,23 @@
+['//nobackup/dcjk57/Test_Data_Final/pg_data_reduced/pg_reduced_train.txt', '//nobackup/dcjk57/Test_Data_Final/pg_data_minimal/pg_minimal_train.txt']
+//nobackup/dcjk57/Test_Data_Final/pg_data_reduced/pg_reduced_train.txt
+add(mul(sub(X4, sin(sqrt(sin(sqrt(X0))))), 0.454), 0.445)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.07793143729859871, 0.9424242, 16.538505122979377, 0.22683472432147495, 0.8866118699430805)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.11523049046868056, 0.839394, 27.45563834592112, 0.2514860765837605, 0.7592288710836226)
+//nobackup/dcjk57/Test_Data_Final/pg_data_reduced/pg_reduced_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.13786740548139667, 0.963636, 28.61400061462973, 52479004582229.84, 0.7471828244495544)
+//nobackup/dcjk57/Test_Data_Final/pg_data_minimal/pg_minimal_train.txt
+add(mul(add(cos(X1), add(sqrt(sqrt(sqrt(X0))), sub(0.306, X1))), -0.343), 0.891)
+Train metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.07621278708034135, 0.9424242, 16.173775478248828, 0.21504480183917368, 0.8915579025532486)
+Test metrics
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+(0.12391906733457095, 0.839394, 29.52584062658798, 0.2661226708109391, 0.721550873149771)
+//nobackup/dcjk57/Test_Data_Final/pg_data_minimal/pg_minimal_extrap_1.txt
+RMSE, Range(Y obs), RMSE/(0.5xrange)x100, mape, r2
+Extrap 1:  (0.13430887814357295, 0.963636, 27.87543805826535, 51789754760905.35, 0.7600654373165348)
