@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: buckinghampy
+Version: 1.0.2
+Summary: Educational package for dimensional analysis
+Home-page: https://github.com/saadgroup/BuckinghamPi
+Author: Mokbel Karam
+Author-email: mokbel.karam@chemeng.utah.edu
+License: MIT
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+

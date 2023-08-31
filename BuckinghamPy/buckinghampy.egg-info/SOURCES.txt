@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+buckinghampy/__init__.py
+buckinghampy/buckinghampi.py
+buckinghampy/buckinghampigui.py
+buckinghampy.egg-info/PKG-INFO
+buckinghampy.egg-info/SOURCES.txt
+buckinghampy.egg-info/dependency_links.txt
+buckinghampy.egg-info/requires.txt
+buckinghampy.egg-info/top_level.txt
